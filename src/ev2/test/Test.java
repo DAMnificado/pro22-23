@@ -11,15 +11,17 @@ public class Test {
     public void leeNumeros() {
 
         InputStreamReader isr = new InputStreamReader(System.in);
-        BufferedReader buff = new BufferedReader(isr);
+        BufferedReader br = new BufferedReader(isr);
 
         try {
             System.out.print("Introduzca el primer número:");
-            String ln = buff.readLine();
-            num1 = Integer.parseInt(ln);
+            String text = br.readLine();
+            num1 = Integer.parseInt(text);
+
             System.out.print("Introduzca el segundo número:");
-            ln = buff.readLine();
-            num2 = Integer.parseInt(ln);
+            text = br.readLine();
+            num2 = Integer.parseInt(text);
+
         } catch (IOException e) {
             System.err.println("Se ha producido una IOException");
             e.printStackTrace();
