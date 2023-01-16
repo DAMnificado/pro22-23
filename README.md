@@ -1,2 +1,3 @@
 # pro22-23
-Repositorio del módulo de programación del curso 2022/2023
+Repositorio del módulo de programación de 1º DAM {2022/2023}
+![Imagen de Presentación](./img/Fondo.jpg)
