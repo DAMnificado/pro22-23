@@ -1,11 +1,10 @@
 package ev2.herencia.pez;
 
     public class Shark extends Fish {
-
         private Integer teeth;
 
-        public Shark(String name, Integer teeth) {
-            super(name);
+        public Shark(String especie, String name, Integer teeth) {
+            super(name, especie);
             this.teeth = teeth;
         }
 
