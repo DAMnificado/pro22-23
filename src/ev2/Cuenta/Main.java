@@ -2,6 +2,7 @@ package ev2.Cuenta;
 
 public class Main {
     public static void main(String[] args) {
+
         Cuenta c1 = new Cuenta ("Marcos", 100);
         System.out.println(c1.toString());
         Cuenta c2 = new Cuenta ("Gon", 50);

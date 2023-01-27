@@ -30,12 +30,13 @@ public class Cuenta {
         this.titular = titular;
     }
 
+
     public void ingresar(double cantidad){
         if (cantidad >= 0) {
             this.cantidad += cantidad;
         }
     }
-
+    
     public double retirar(double cantidad) {
         this.cantidad -= cantidad;
         if (this.cantidad < 0.0) {
