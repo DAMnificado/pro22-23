@@ -1,32 +1,5 @@
 package ev2.Aparato;
 
-/**
- * Crear clase Aparato que contenga:
- * Atributos:
- * 	PVP
- * 	Color
- * 	Consumo (letras entre A y F)
- * 	Peso.
- * Por defecto, el color sera blanco, el consumo energético será F, el PVP 100 € y el peso 5 kg. Los posibles colores son blanco, negro, rojo, azul y gris.
- * Constructores:
- * 	Por defecto.
- * 	Uno con el precio y peso. El resto por defecto.
- * 	Uno con todos los atributos.
- * Métodos:
- * Getters y Setters.
- * comprobarConsumo(char letra): se comprueba que la letra esté entre las válidas. Si no, se asignará la letra por defecto (F). Se invocará al crear el objeto.
- * aplicarDescuento(): con la nueva normativa vigente, a los electrodomésticos con un menor impacto medioambiental, se les aplicará un descuento:
- * * A los electrodomésticos que no empleen esmalte de color (gris), se les aplicará una bonificación de un 5% en el precio de venta.
- * * Según consumo energético, se les aplicarán además los siguientes descuentos:
- *
- * LETRA	DESCUENTO
- * A		20%
- * B		15%
- * C		10%
- * D		5%
- * E		0
- * F		0
- */
 
 public class Aparato {
 
@@ -40,16 +13,11 @@ public class Aparato {
     public Integer peso=5;
 
     public Aparato() {
-        this.pvp = pvp;
-        this.color = color;
-        this.consumo = consumo;
-        this.peso = peso;
+        this.pvp = aplicarDescuento(pvp, color, consumo);
     }
 
     public Aparato(Integer pvp, Integer peso) {
-        this.pvp = pvp;
-        this.color = color;
-        this.consumo = consumo;
+        this.pvp = aplicarDescuento(pvp, color, consumo);
         this.peso = peso;
     }
 
@@ -101,17 +69,22 @@ public class Aparato {
             System.out.println("Se ha asignado un valor por defecto: 'F' .\n");
             return 'F';
         } return letra;
-
-
     }
-
-    @Override
+    public Integer aplicarDescuento(Integer pvp, String color, char consumo) {
+        if (!color.equals("Gris")) {
+            pvp = (int) (pvp * 1.05);
+        }
+        switch (consumo) {
+            case 'A' -> pvp = (int) (pvp * 0.8);
+            case 'B' -> pvp = (int) (pvp * 0.85);
+            case 'C' -> pvp = (int) (pvp * 0.9);
+            case 'D' -> pvp = (int) (pvp * 0.95);
+            default -> {
+            }
+        }
+        return pvp;
+    }
     public String toString() {
-        return "Aparato{" +
-                "pvp=" + pvp +
-                ", color='" + color + '\'' +
-                ", consumo=" + consumo +
-                ", peso=" + peso +
-                '}';
+        return "PVP: " + pvp + "\n" + "Color: " + color + "\n" + "Consumo: " + consumo + "\n" + "Peso: " + peso + "\n";
     }
 }
