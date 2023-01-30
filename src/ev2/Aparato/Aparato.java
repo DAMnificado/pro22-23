@@ -2,7 +2,6 @@ package ev2.Aparato;
 
 
 public class Aparato {
-
     public Integer pvp=100;
     public String color="blanco";
     public char consumo='F';
@@ -31,11 +30,10 @@ public class Aparato {
                 this.color="Blanco";
             }
         }
-        this.pvp=pvp;
+        this.pvp = aplicarDescuento(pvp, color, consumo);
         this.consumo = comprobarConsumo(consumo);
         this.peso = peso;
     }
-
     public Integer getPvp() {
         return pvp;
     }
@@ -71,6 +69,7 @@ public class Aparato {
         } return letra;
     }
     public Integer aplicarDescuento(Integer pvp, String color, char consumo) {
+
         if (!color.equals("Gris")) {
             pvp = (int) (pvp * 1.05);
         }
