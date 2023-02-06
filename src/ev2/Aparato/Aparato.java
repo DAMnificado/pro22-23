@@ -71,7 +71,7 @@ public class Aparato {
     public Integer aplicarDescuento(Integer pvp, String color, char consumo) {
 
         if (!color.equals("Gris")) {
-            pvp = (int) (pvp * 0.95);
+            pvp = (int) (pvp * 1.05);
         }
         switch (consumo) {
             case 'A' -> pvp = (int) (pvp * 0.8);
