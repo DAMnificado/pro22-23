@@ -38,11 +38,18 @@ public abstract class Empleadxs {
     public void setSalario(int salario) {
         this.salario = salario;
     }
+
     @Override
     public String toString() {
-        return super.toString();
+        return "Empleadxs{" +
+                "nombre='" + nombre + '\'' +
+                ", edad=" + edad +
+                ", salario=" + salario +
+                ", PLUS=" + PLUS +
+                '}';
     }
-
+    /**
+    ☺
+**/
     public abstract double plus();
-
 }

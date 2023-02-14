@@ -3,6 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="9366418f-d697-4acd-b7e6-35eb6f7ce826" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ev2/emplea2/Comercial.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ev2/emplea2/Comercial.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ev2/emplea2/Empleadxs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ev2/emplea2/Empleadxs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ev2/emplea2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ev2/emplea2/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ev2/emplea2/Repartidor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ev2/emplea2/Repartidor.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
