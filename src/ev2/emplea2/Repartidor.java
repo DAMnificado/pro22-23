@@ -28,8 +28,8 @@ public class Repartidor extends Empleadxs{
             sueldoFinalR=getSalario() + getPLUS();
         sueldoFinalR= (int) (getSalario()+PLUS);
         setSalario(sueldoFinalR);
-        System.out.println("Como tienes mas de 30 años y cobras mas de 200 "+
-                "euros se te aplicará un PLUS de: " + PLUS + " a tu sueldo");
+        System.out.println("Como tienes menos de 25 años y estás en la zona 3 "+
+                "se te aplicará un PLUS de: " + PLUS + " a tu sueldo");
         return getSalario();
     }
 
