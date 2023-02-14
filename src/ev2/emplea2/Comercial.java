@@ -29,7 +29,6 @@ public class Comercial extends Empleadxs{
         return getSalario();
     }
 
-
     @Override
     public String toString() {
         return super.toString() + "Comision: " + comision;
