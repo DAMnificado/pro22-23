@@ -1,4 +1,4 @@
-package ev2.Aparato;
+package ev2.aparato;
 
 
 public class Aparato {
