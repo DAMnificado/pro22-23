@@ -1,14 +1,28 @@
 package ev2.aparato;
 
+import ev2.emplea2.Empleadxs;
+
 public class Main {
 
     public static void main(String[] args) {
 
-        Aparato apa1 = new Aparato(100, "blanco", 'A',5 );
-        System.out.println(apa1);
-        Aparato apa2 = new Aparato ();
-        System.out.println(apa2);
-        Aparato apa3 = new Aparato( 21, 12);
-        System.out.println(apa3);
+        /**
+         * FRIGO
+         * Integer pvp, String color, char consumo, Integer peso, int altura
+         * LAVADORA
+         * Integer pvp, String color, char consumo, Integer peso,int capacidad, boolean secadoraIntegrada
+         */
+
+        Aparato[] elec = new Aparato[5];
+        elec [0] = new Frigo(233,"Blanco", 'A',123, 21);
+        elec [1] = new Lavadora(500,"Gris",'A',600,35,false);
+        elec [2] = new Lavadora(500,"Gris",'A',600,35,true);
+        elec [3] = new Frigo(233,"Blanco", 'A',123, 21);
+        elec [4] = new Lavadora(500,"Gris",'A',600,35,true);
+        
+        for (Aparato i : elec) {
+            System.out.println(i);
+            i.aplicarDescuento();
+        }
     }
 }

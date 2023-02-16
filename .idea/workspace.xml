@@ -3,9 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="9366418f-d697-4acd-b7e6-35eb6f7ce826" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ev2/Aparato/Aparato.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ev2/aparato/Aparato.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ev2/Aparato/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ev2/aparato/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ev2/emplea2/Comercial.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ev2/emplea2/Comercial.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ev2/Vida/Vegetal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ev2/Vida/Vegetal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ev2/aparato/Aparato.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ev2/aparato/Aparato.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ev2/aparato/Lavadora.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ev2/aparato/Lavadora.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ev2/aparato/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ev2/aparato/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
