@@ -1,8 +1,5 @@
 package ev2.Figura;
 
-import ev2.Cuenta.Cuenta;
-import ev2.Libro.Libro;
-
 /**
  * /**
  *  * Se desea modelar una aplicación con las siguientes entidades y datos: una entidad base Figura que contenga el campo color
@@ -15,15 +12,11 @@ import ev2.Libro.Libro;
  *  *
  *  * Por último, crear una clase de prueba para comprobar el funcionamiento del programa, empleando polimorfismo.
  *  */
-public class Main {
 
-    public static void main(String[] args) {
+public abstract class Figura {
 
-        Figura f1 = new Cuadrado(5);
-        System.out.print("El area del cuadrado es de:  ");
-        System.out.println(f1.calcularArea());
-        System.out.print("El area del triángulo es de:  ");
-        Figura f2 = new Triangulo(20, 30);
-        System.out.println(f2.calcularArea());
-    }
+    public String Color="Amarillo";
+
+    public abstract int calcularArea();
+
 }

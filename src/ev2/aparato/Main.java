@@ -19,7 +19,7 @@ public class Main {
         elec [2] = new Lavadora(500,"Gris",'A',600,35,true);
         elec [3] = new Frigo(233,"Blanco", 'A',123, 21);
         elec [4] = new Lavadora(500,"Gris",'A',600,35,true);
-        
+
         for (Aparato i : elec) {
             System.out.println(i);
             i.aplicarDescuento();

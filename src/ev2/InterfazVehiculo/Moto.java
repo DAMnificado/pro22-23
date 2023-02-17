@@ -1,4 +1,4 @@
-package ev2.SobreRuedas;
+package ev2.InterfazVehiculo;
 
 public class Moto implements Vehiculo{
  public int veloMoto;
