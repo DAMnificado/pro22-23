@@ -1,28 +1,40 @@
 package ev2.aparato;
 
-import ev2.emplea2.Empleadxs;
+/**
+ * Ahora crea una clase ejecutable que realice lo siguiente:
+ *
+ * Crea un array de Electrodomesticos de 5 posiciones.
+ * Ejecutar el método aplicarDescuento() para cada uno de los elementos.
+ * Deberás mostrar el precio de cada tipo de aparato (instanceof)
+ */
 
 public class Main {
-
     public static void main(String[] args) {
+        Aparato [] arrayAparatos = new Aparato[5];
 
-        /**
-         * FRIGO
-         * Integer pvp, String color, char consumo, Integer peso, int altura
-         * LAVADORA
-         * Integer pvp, String color, char consumo, Integer peso,int capacidad, boolean secadoraIntegrada
-         */
+        arrayAparatos [0] = new Aparato();
+        arrayAparatos [1] = new Frigorifico(12,8);
+        arrayAparatos [2]  = new Frigorifico(12,"blanco", 'A', 21, 5, 34);
+        arrayAparatos [3] = new Lavadora(12, 145, true, 23);
+        arrayAparatos [4] = new Frigorifico(83,32);
 
-        Aparato[] elec = new Aparato[5];
-        elec [0] = new Frigo(233,"Blanco", 'A',123, 21);
-        elec [1] = new Lavadora(500,"Gris",'A',600,35,false);
-        elec [2] = new Lavadora(500,"Gris",'A',600,35,true);
-        elec [3] = new Frigo(233,"Blanco", 'A',123, 21);
-        elec [4] = new Lavadora(500,"Gris",'A',600,35,true);
 
-        for (Aparato i : elec) {
-            System.out.println(i);
-            i.aplicarDescuento();
+        for(Aparato a : arrayAparatos){
+
+            System.out.println("El precio inicial: " + a.getPVP());
+            a.aplicarDescuento();
+            System.out.println("Tras el descuento: " + a.getPVP());
+
+            if (a instanceof Frigorifico){
+                ((Frigorifico) a).getCapacidad();
+                System.out.print("La capacidad de tu frigorifico es de: ");
+                System.out.println(((Frigorifico) a).getCapacidad());
+            }
+            if (a instanceof Lavadora){
+                ((Lavadora) a).getKilos();
+                System.out.print("Kilos de tu lavadora: ");
+                System.out.println(((Lavadora) a).getKilos());
+            }
         }
     }
 }

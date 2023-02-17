@@ -1,95 +1,126 @@
 package ev2.aparato;
 
+/**
+ *  *  *  * Crear clase Aparato que contenga:
+ *  *  *  * Atributos:
+ *  *  *  * 	PVP
+ *  *  *  * 	Color
+ *  *  *  * 	Consumo (letras entre A y F)
+ *  *  *  * 	Peso.
+ *  *  *  * Por defecto, el color sera blanco, el consumo energético será F, el PVP 100 € y el peso 5 kg. Los posibles colores son blanco, negro, rojo, azul y gris.
+ *  *  *  * Constructores:
+ *  *  *  * 	Por defecto.
+ *  *  *  * 	Uno con el precio y peso. El resto por defecto.
+ *  *  *  * 	Uno con todos los atributos.
+ *  *  *  * Métodos:
+ *  *  *  * Getters y Setters.
+ *
+ *
+ *
+ *
+ *  *  *  * comprobarConsumo(char letra): se comprueba que la letra esté entre las válidas. Si no, se asignará la letra por defecto (F). Se invocará al crear el objeto.
+ *
+ *
+ *
+ *  *  *  * aplicarDescuento(): con la nueva normativa vigente, a los electrodomésticos con un menor impacto medioambiental, se les aplicará un descuento:
+ *  *  *  * * A los electrodomésticos que no empleen esmalte de color (gris), se les aplicará una bonificación de un 5% en el precio de venta.
+ *  *  *  * * Según consumo energético, se les aplicarán además los siguientes descuentos:
+ *  *  *  *
+ *  *  *  * LETRA	DESCUENTO
+ *  *  *  * A		20%
+ *  *  *  * B		15%
+ *  *  *  * C		10%
+ *  *  *  * D		5%
+ *  *  *  * E		0
+ *  *  *  * F		0
+ *  */
 
-public abstract class Aparato {
+public class Aparato {
 
-    private Integer pvp = 100;
+    private int PVP;
+    private String color;
+    private char consumo;
+    private int peso;
 
-    private String color = "Blanco";
+//Constructores
 
-    private char consumo = 'F';
-
-    private Integer peso = 5;
-
-    public void setPvp(Integer pvp) {
-        this.pvp = pvp;
+    public Aparato() {
+        this.color = "blanco";
+        this.peso = 5;
+        this.consumo = 'F';
+        this.PVP = 100;
     }
 
-    public void setColor(String color) {
+    public Aparato(int PVP, int peso) {
+        this.PVP = PVP;
+        this.peso = peso;
+        this.consumo = 'F';
+        this.color = "blanco";
+    }
+
+    public Aparato(int PVP, String color, char consumo, int peso) {
+        this.PVP = PVP;
         this.color = color;
-    }
-
-    public void setConsumo(char consumo) {
-        this.consumo = consumo;
-    }
-
-    public void setPeso(Integer peso) {
+        if (comprobarConsumo(consumo))this.consumo = consumo;
         this.peso = peso;
     }
 
-    public Integer getPvp() {
-        return pvp;
+//Getters Y Setters
+
+    public int getPVP() {
+        return PVP;
+    }
+
+    public void setPVP(int PVP) {
+        this.PVP = PVP;
     }
 
     public String getColor() {
         return color;
     }
 
+    public void setColor(String color) {
+        this.color = color;
+    }
+
     public char getConsumo() {
         return consumo;
     }
 
-    public Integer getPeso() {
+    public void setConsumo(char consumo) {
+        this.consumo = consumo;
+    }
+
+    public int getPeso() {
         return peso;
     }
 
-    public Aparato() {
-    }
-
-    public Aparato(Integer pvp, Integer peso) {
-        this.pvp = aplicarDescuento();
+    public void setPeso(int peso) {
         this.peso = peso;
     }
 
-    public Aparato(Integer pvp, String color, char consumo, Integer peso) {
-        switch (color) {
-            case "Blanco", "Negro", "Rojo", "Azul", "Gris" -> this.color = color;
-            default -> {
-                System.out.print("Se ha introducido un valor no contemplado, ");
-                System.out.println("se ha asignado el color por defecto 'Blanco'. \n");
-                this.color = "Blanco";
-            }
+    private boolean comprobarConsumo(char consumo){
+        return (consumo>= 65 && consumo<=70);
         }
-        this.consumo = comprobarConsumo(consumo);
-        this.pvp = aplicarDescuento();
-        this.peso = peso;
-    }
 
-    public char comprobarConsumo(char letra) {
-        if (letra < 65 || letra > 70) {
-            System.out.print("Se ha introducido un valor no contemplado, ");
-            System.out.println("se ha asignado el consumo por defecto 'F'.\n");
-            return 'F';
-        }
-        return letra;
-    }
-
-    public Integer aplicarDescuento() {
-        if (!color.equals("Gris")) {
-            pvp = (int) (pvp * 1.05);
+    public void aplicarDescuento () {
+        if (!color.equals("gris")) {
+            PVP *= 0.95;
         }
         switch (consumo) {
-            case 'A' -> pvp = (int) (pvp * 0.8);
-            case 'B' -> pvp = (int) (pvp * 0.85);
-            case 'C' -> pvp = (int) (pvp * 0.9);
-            case 'D' -> pvp = (int) (pvp * 0.95);
-            default -> {
-            }
+
+            case 'A':
+                PVP *= 0.8;
+                break;
+            case 'B':
+                PVP *= 0.85;
+                break;
+            case 'C':
+                PVP *=  0.90;
+                break;
+            case 'D':
+                PVP *= 0.95;
+                break;
         }
-        return pvp;
-    }
-    @Override
-    public String toString() {
-        return "PVP: " + pvp + "\n" + "Color: " + color + "\n" + "Consumo: " + consumo + "\n" + "Peso: " + peso + "\n";
     }
 }
