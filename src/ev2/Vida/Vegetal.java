@@ -7,7 +7,6 @@ public class Vegetal extends SerVivo{
         super(nombre, nombreCientifico);
         this.altura=altura;
     }
-
     public void setAltura(Integer altura) {
         this.altura = altura;
     }
