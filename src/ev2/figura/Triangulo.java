@@ -1,5 +1,4 @@
-package ev2.Figura;
-
+package ev2.figura;
 /**
  * /**
  *  * Se desea modelar una aplicación con las siguientes entidades y datos: una entidad base Figura que contenga el campo color
@@ -12,11 +11,40 @@ package ev2.Figura;
  *  *
  *  * Por último, crear una clase de prueba para comprobar el funcionamiento del programa, empleando polimorfismo.
  *  */
+public class Triangulo extends Figura{
 
-public abstract class Figura {
+    private int base;
+    private int altura;
 
-    public String Color="Amarillo";
 
-    public abstract int calcularArea();
+    public Triangulo(int base, int altura) {
+        this.base = base;
+        this.altura = altura;
+    }
 
+    public int getBase() {
+        return base;
+    }
+
+    public void setBase(int base) {
+        this.base = base;
+    }
+
+    public int getAltura() {
+        return altura;
+    }
+
+    public void setAltura(int altura) {
+        this.altura = altura;
+    }
+
+    @Override
+    public int calcularArea() {
+        return getBase()*getAltura()/2;
+    }
+
+    @Override
+    public String toString() {
+        return super.toString() + "Base: " + base + "Altura: " + altura;
+    }
 }
