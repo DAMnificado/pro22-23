@@ -1,7 +1,4 @@
-package ev2.Figura;
-
-import ev2.Cuenta.Cuenta;
-import ev2.Libro.Libro;
+package ev2.figura;
 
 /**
  * /**
@@ -11,19 +8,32 @@ import ev2.Libro.Libro;
  *  * Deberá existir también otra clase Cuadrado que herede de Figura, que contenga un atributo lado, y que implemente los
  *  * métodos que sean necesarios.
  *  *
- *  * Además, existirá una clase Triangulo con 2 atributos base y altura y que implemente los métodos necesarios.
+ *  * Además, existirá una clase Triángulo con 2 atributos base y altura y que implemente los métodos necesarios.
  *  *
  *  * Por último, crear una clase de prueba para comprobar el funcionamiento del programa, empleando polimorfismo.
  *  */
-public class Main {
+public class Cuadrado extends Figura {
 
-    public static void main(String[] args) {
+    private int lado;
 
-        Figura f1 = new Cuadrado(5);
-        System.out.print("El area del cuadrado es de:  ");
-        System.out.println(f1.calcularArea());
-        System.out.print("El area del triángulo es de:  ");
-        Figura f2 = new Triangulo(20, 30);
-        System.out.println(f2.calcularArea());
+    public Cuadrado(int lado) {
+        this.lado = lado;
+    }
+
+    public int getLado() {
+        return lado;
+    }
+
+    public void setLado(int lado) {
+        this.lado = lado;
+    }
+
+    @Override
+    public int calcularArea() {
+        return getLado()*getLado();
+    }
+
+    public String toString() {
+        return super.toString() + "Lado: " + lado;
     }
 }
