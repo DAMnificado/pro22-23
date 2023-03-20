@@ -77,7 +77,6 @@ Iterator<String> itr = set.iterator();
 
     }
 
-
     public static void comprobaciones () {
 
         long t_comienzo;
