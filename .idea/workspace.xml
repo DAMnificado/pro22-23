@@ -3,10 +3,64 @@
   <component name="ChangeListManager">
     <list default="true" id="9366418f-d697-4acd-b7e6-35eb6f7ce826" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ev2/Figura/Cuadrado.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ev2/figura/Cuadrado.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ev2/Figura/Figura.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ev2/figura/Figura.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ev2/Figura/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ev2/figura/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ev2/Figura/Triangulo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ev2/figura/Triangulo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ev2/Cuenta/Cuenta.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ev2/Cuenta/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ev2/InterfazColeccion/CollectionInterface.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ev2/InterfazColeccion/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ev2/InterfazColeccion/Pila.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ev2/InterfazVehiculo/Coche.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ev2/InterfazVehiculo/Moto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ev2/InterfazVehiculo/Vehiculo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ev2/Libro/Autor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ev2/Libro/Libro.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ev2/Libro/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ev2/Libro/Person.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ev2/Sorteo/Dado.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ev2/Sorteo/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ev2/Sorteo/Moneda.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ev2/Sorteo/Sorteo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ev2/Vida/Animal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ev2/Vida/SerVivo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ev2/Vida/Vegetal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ev2/aparato/Aparato.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ev2/aparato/Frigorifico.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ev2/aparato/Lavadora.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ev2/aparato/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ev2/conversorNumero/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ev2/conversorNumero/NumConverter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ev2/emplea2/Comercial.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ev2/emplea2/Empleadxs.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ev2/emplea2/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ev2/emplea2/Repartidor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ev2/empleado/Directivo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ev2/empleado/Empleado.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ev2/empleado/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ev2/empleado/Oficial.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ev2/empleado/Operario.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ev2/empleado/Tecnico.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ev2/figura/Cuadrado.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ev2/figura/Figura.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ev2/figura/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ev2/figura/Triangulo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ev2/freya/Abilitys.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ev2/freya/Adds.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ev2/freya/AncientConservator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ev2/freya/AncientWaterSpirit.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ev2/freya/DetonatinLasher.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ev2/freya/EonarsGift.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ev2/freya/HealthySpore.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ev2/freya/IronRoots.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ev2/freya/NaturesFury.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ev2/freya/Snaplasher.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ev2/freya/StormLasher.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ev2/herencia/pez/Fish.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ev2/herencia/pez/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ev2/herencia/pez/Shark.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ev2/listas/ej1/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ev2/test/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ev2/test/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ev2/ultimaCifra/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ev2/ultimaCifra/ultimaCifra.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
