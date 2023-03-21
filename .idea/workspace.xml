@@ -3,68 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="9366418f-d697-4acd-b7e6-35eb6f7ce826" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-<<<<<<< HEAD
-      <change beforePath="$PROJECT_DIR$/src/ev2/Cuenta/Cuenta.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ev2/Cuenta/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ev2/InterfazColeccion/CollectionInterface.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ev2/InterfazColeccion/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ev2/InterfazColeccion/Pila.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ev2/InterfazVehiculo/Coche.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ev2/InterfazVehiculo/Moto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ev2/InterfazVehiculo/Vehiculo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ev2/Libro/Autor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ev2/Libro/Libro.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ev2/Libro/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ev2/Libro/Person.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ev2/Sorteo/Dado.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ev2/Sorteo/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ev2/Sorteo/Moneda.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ev2/Sorteo/Sorteo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ev2/Vida/Animal.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ev2/Vida/SerVivo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ev2/Vida/Vegetal.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ev2/aparato/Aparato.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ev2/aparato/Frigorifico.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ev2/aparato/Lavadora.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ev2/aparato/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ev2/conversorNumero/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ev2/conversorNumero/NumConverter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ev2/emplea2/Comercial.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ev2/emplea2/Empleadxs.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ev2/emplea2/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ev2/emplea2/Repartidor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ev2/empleado/Directivo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ev2/empleado/Empleado.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ev2/empleado/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ev2/empleado/Oficial.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ev2/empleado/Operario.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ev2/empleado/Tecnico.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ev2/figura/Cuadrado.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ev2/figura/Figura.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ev2/figura/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ev2/figura/Triangulo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ev2/freya/Abilitys.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ev2/freya/Adds.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ev2/freya/AncientConservator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ev2/freya/AncientWaterSpirit.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ev2/freya/DetonatinLasher.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ev2/freya/EonarsGift.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ev2/freya/HealthySpore.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ev2/freya/IronRoots.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ev2/freya/NaturesFury.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ev2/freya/Snaplasher.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ev2/freya/StormLasher.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ev2/herencia/pez/Fish.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ev2/herencia/pez/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ev2/herencia/pez/Shark.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ev2/listas/ej1/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ev2/test/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ev2/test/Test.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ev2/ultimaCifra/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ev2/ultimaCifra/ultimaCifra.java" beforeDir="false" />
-=======
-      <change beforePath="$PROJECT_DIR$/src/ev2/listas/ej1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ev2/listas/ej1/Main.java" afterDir="false" />
->>>>>>> 2264743feffd73651d7d99aed7a528b056b82356
+      <change beforePath="$PROJECT_DIR$/src/ev2/parte2/ej17/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ev2/parte2/ej17/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,19 +31,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;ToolWindowRun.ShowToolbar&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/elmen/Desktop/DAM/pro22-23&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "ToolWindowRun.ShowToolbar": "false",
+    "last_opened_file_path": "C:/Users/elmen/Desktop/DAM/pro22-23",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
+}]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
