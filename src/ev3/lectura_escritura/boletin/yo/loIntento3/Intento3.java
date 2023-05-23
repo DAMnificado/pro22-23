@@ -1,4 +1,4 @@
-package boletin.loIntento3;
+package ev3.lectura_escritura.boletin.yo.loIntento3;
 
 import java.io.*;
 

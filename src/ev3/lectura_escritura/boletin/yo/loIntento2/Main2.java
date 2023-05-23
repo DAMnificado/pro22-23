@@ -1,4 +1,4 @@
-package boletin.loIntento2;
+package ev3.lectura_escritura.boletin.yo.loIntento2;
 
 public class Main2 {
     public static void main(String[] args) {

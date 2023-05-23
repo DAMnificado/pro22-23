@@ -3,13 +3,37 @@
   <component name="ChangeListManager">
     <list default="true" id="9366418f-d697-4acd-b7e6-35eb6f7ce826" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ev3/excepciones/calculadoraExcepciones/E2_Calculadora.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ev3/excepciones/calculadoraExcepciones/E2_Calculadora.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ev3/lectura_escritura/contarMayus/E2_ContarMayusculas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ev3/lectura_escritura/contarMayus/E2_ContarMayusculas.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ev3/lectura_escritura/ej4/Ejercicio4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ev3/lectura_escritura/ej4/Ejercicio4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ev3/lectura_escritura/excluirEspaciosVocales/Ejercicio1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ev3/lectura_escritura/excluirEspaciosVocales/Ejercicio1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ev3/lectura_escritura/objetos/Ejercicio2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ev3/lectura_escritura/objetos/Ejercicio2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ev3/lectura_escritura/objetos/Producto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ev3/lectura_escritura/objetos/Producto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ev3/lectura_escritura/valoresAleatorios/valoresAleatorios.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ev3/lectura_escritura/valoresAleatorios/valoresAleatorios.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ev3/lectura_escritura/boletin/ej1/Ej1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ev3/lectura_escritura/boletin/ej1/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ev3/lectura_escritura/boletin/ej1/datos.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ev3/lectura_escritura/boletin/ej2/Ej2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ev3/lectura_escritura/boletin/ej2/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ev3/lectura_escritura/boletin/ej4/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ev3/lectura_escritura/boletin/ej4/ej4.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ev3/lectura_escritura/boletin/ej5/Ej5.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ev3/lectura_escritura/boletin/ej5/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ev3/lectura_escritura/boletin/ej6/Ej6.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ev3/lectura_escritura/boletin/ej6/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ev3/lectura_escritura/boletin/ej7/Alumno.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ev3/lectura_escritura/boletin/ej7/ArchivoIntroducidoIncorrectoExcepcion.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ev3/lectura_escritura/boletin/ej7/Ej7.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ev3/lectura_escritura/boletin/ej7/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ev3/lectura_escritura/boletin/files/alumnos.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ev3/lectura_escritura/boletin/files/datos.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ev3/lectura_escritura/boletin/files/datos_mayus.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ev3/lectura_escritura/boletin/files/datos_mayus2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ev3/lectura_escritura/boletin/files/productos.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ev3/lectura_escritura/boletin/files/registros.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ev3/lectura_escritura/boletin/files/temp.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ev3/lectura_escritura/boletin/loIntento/Intento.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ev3/lectura_escritura/boletin/loIntento/Main1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ev3/lectura_escritura/boletin/loIntento/datos.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ev3/lectura_escritura/boletin/loIntento2/Intento2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ev3/lectura_escritura/boletin/loIntento2/Main2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ev3/lectura_escritura/boletin/loIntento2/datos.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ev3/lectura_escritura/boletin/loIntento3/Ejercicio2_3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ev3/lectura_escritura/boletin/loIntento3/Intento3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ev3/lectura_escritura/boletin/loIntento3/Main3.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,19 +61,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "ToolWindowRun.ShowToolbar": "false",
-    "last_opened_file_path": "C:/Users/elmen/Desktop/DAM/gonzalo",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;ToolWindowRun.ShowToolbar&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/elmen/Desktop/DAM/pro22-23&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="Z:\pro22-23\src\ev3\excepciones\calculadora" />
