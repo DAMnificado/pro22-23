@@ -55,6 +55,7 @@ public class E2_Calculadora {
                     numValidos = true;
                 } catch (InputMismatchException e) {
                     throw new E2_ArgumentoIncorrecto("***ERROR DE FORMATO");
+                    
                 }
             } catch (E2_ArgumentoIncorrecto ex) {
                 numValidos = false;

@@ -1,4 +1,4 @@
-package ActividadesStreams.Avanzado;
+package ev3.lectura_escritura.valoresAleatorios;
 
 import java.io.*;
 import java.nio.file.Files;
@@ -6,7 +6,7 @@ import java.nio.file.Paths;
 
 import static java.nio.file.StandardOpenOption.*;
 
-public class Ej4 {
+public class valoresAleatorios {
     public static void main(String[] args) {
         valoresAleatorios();
     }

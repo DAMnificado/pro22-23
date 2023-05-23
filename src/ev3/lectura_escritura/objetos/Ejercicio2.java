@@ -1,4 +1,4 @@
-package ActividadesStreams.BoletinV2.Objetos;
+package ev3.lectura_escritura.objetos;
 
 import java.io.*;
 import java.util.Scanner;

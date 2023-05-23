@@ -1,4 +1,4 @@
-package ActividadesStreams;
+package ev3.lectura_escritura.contarMayus;
 
 import java.io.FileNotFoundException;
 import java.io.FileReader;
@@ -14,6 +14,7 @@ public class E2_ContarMayusculas {
             int contador = 0;
             int c;
             while ((c = fr.read()) != -1) {
+                /**me tienes loco tigre*/
                 if (c >= 65 && c <= 90) {
                     contador++;
                 }
@@ -21,6 +22,7 @@ public class E2_ContarMayusculas {
             System.out.println("Existen " + contador + " letras mayúsculas en el fichero.");
         } catch (FileNotFoundException e) {
             throw new RuntimeException(e);
+            /**te como la boca*/
         } catch (IOException e) {
             throw new RuntimeException(e);
         }

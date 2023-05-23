@@ -1,4 +1,4 @@
-package ActividadesStreams;
+package ev3.lectura_escritura.excluirEspaciosVocales;
 
 import java.io.FileNotFoundException;
 import java.io.FileReader;

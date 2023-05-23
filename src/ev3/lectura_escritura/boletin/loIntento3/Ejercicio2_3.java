@@ -1,4 +1,4 @@
-package ev3.lectura_escritura.boletin.dos_tres.NNormal;
+package boletin.loIntento3;
 
 import java.io.*;
 import java.nio.file.Files;

@@ -3,6 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="9366418f-d697-4acd-b7e6-35eb6f7ce826" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ev3/excepciones/calculadoraExcepciones/E2_Calculadora.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ev3/excepciones/calculadoraExcepciones/E2_Calculadora.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ev3/lectura_escritura/contarMayus/E2_ContarMayusculas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ev3/lectura_escritura/contarMayus/E2_ContarMayusculas.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ev3/lectura_escritura/ej4/Ejercicio4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ev3/lectura_escritura/ej4/Ejercicio4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ev3/lectura_escritura/excluirEspaciosVocales/Ejercicio1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ev3/lectura_escritura/excluirEspaciosVocales/Ejercicio1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ev3/lectura_escritura/objetos/Ejercicio2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ev3/lectura_escritura/objetos/Ejercicio2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ev3/lectura_escritura/objetos/Producto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ev3/lectura_escritura/objetos/Producto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ev3/lectura_escritura/valoresAleatorios/valoresAleatorios.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ev3/lectura_escritura/valoresAleatorios/valoresAleatorios.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,7 +43,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "ToolWindowRun.ShowToolbar": "false",
-    "last_opened_file_path": "C:/Users/elmen/Desktop/DAM/PRO",
+    "last_opened_file_path": "C:/Users/elmen/Desktop/DAM/gonzalo",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
