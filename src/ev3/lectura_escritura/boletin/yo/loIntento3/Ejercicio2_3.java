@@ -7,13 +7,16 @@ import java.nio.file.Paths;
 import java.util.Scanner;
 
 public class Ejercicio2_3 {
+    File archivo = new File("./src/boletin/loIntento3/datos.txt");
+    File archivoAux = new File("./src/boletin/loIntento3/temporal.txt");
+
     private void cargarFichero() {
-        try (DataOutputStream dos = new DataOutputStream(new FileOutputStream("datos.txt"))){
+        try (DataOutputStream dosA = new DataOutputStream(new FileOutputStream(archivo))){
             String[] productos = {"Agua", "Leche", "Jabón", "Yogur"};
             double[] precios = {0.75, 0.95, 2.15, 1.50};
 
             for (int i = 0; i < productos.length; i++) {
-                dos.writeUTF(productos[i] + " " + precios[i] + "\n");
+                dosA.writeUTF(productos[i] + " " + precios[i] + "\n");
             }
             System.out.println("Fichero cargado");
         } catch (FileNotFoundException e) {
@@ -24,28 +27,28 @@ public class Ejercicio2_3 {
     }
 
     private void borrado () throws IOException {
+
         Scanner sc = new Scanner(System.in);
         System.out.println("Introduzca el nombre del producto que desea eliminar:");
         String nombre = sc.nextLine();
 
-        File fic = new File("datos.txt");
-        File ficAux = new File("Temp.txt");
-        try (DataInputStream dis = new DataInputStream(new FileInputStream(fic))) {
-            DataOutputStream temporalEscritura = new DataOutputStream(new FileOutputStream(ficAux));
+        try(DataInputStream disA = new DataInputStream(new FileInputStream(archivo))) {
+            DataOutputStream dosAux = new DataOutputStream(new FileOutputStream(archivoAux));
 
             String linea;
+
             while (true) {
-                linea = dis.readUTF();
+                linea = disA.readUTF();
 
                 if (linea.split(" ")[0].equalsIgnoreCase(nombre))
                     System.out.println("Eliminado: " + linea);
                 else
-                    temporalEscritura.writeUTF(linea);
+                    dosAux.writeUTF(linea);
             }
         } catch (EOFException e) {
             System.err.println("Fin de fichero");
-            fic.delete();
-            Files.move(Paths.get(ficAux.getAbsolutePath()), Paths.get("datos.txt"));
+            archivo.delete();
+            Files.move(Paths.get(archivoAux.getAbsolutePath()), Paths.get("datos.txt"));
         } catch (IOException e) {
             throw new RuntimeException(e);
         }

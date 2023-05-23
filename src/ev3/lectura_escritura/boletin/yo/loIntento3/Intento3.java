@@ -1,6 +1,7 @@
 package ev3.lectura_escritura.boletin.yo.loIntento3;
 
 import java.io.*;
+import java.util.Scanner;
 
 /**
  * A partir del ejercicio anterior, implementa un método que solicite un nombre de producto al
@@ -12,7 +13,7 @@ import java.io.*;
 public class Intento3 {
     static String [] productos = {"Chori","Leche","Pan"};
     static float [] precios = {3.0F,4.0F,5.0F};
-    static File archivo = new File("./src/boletin/loIntento2/datos.txt");
+    static File archivo = new File("./src/boletin/loIntento3/datos.txt");
 
     public static void escribirArchivo(){
         creararchivo(archivo);
@@ -47,6 +48,12 @@ public class Intento3 {
     }
 
     public static void solicitaProducto(){
+
+        Scanner sc = new Scanner(System.in);
+        String loquequieres = sc.nextLine();
+
+
+
 
     }
     /**
