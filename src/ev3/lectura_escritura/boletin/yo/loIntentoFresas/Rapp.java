@@ -21,13 +21,13 @@ import java.util.Scanner;
  */
 public class Rapp {
 
-    static File archivo = new File("C:\\Users\\elmen\\Desktop\\DAM\\pro22-23\\src\\ev3\\lectura_escritura\\boletin\\yo\\loIntentoFresas\\datos.txt");
-    static File archivoAux = new File("C:\\Users\\elmen\\Desktop\\DAM\\pro22-23\\src\\ev3\\lectura_escritura\\boletin\\yo\\loIntentoFresas\\temporal.txt");
+    static File archivo = new File("src/ev3/lectura_escritura/boletin/yo/loIntentoFresas/datos.txt");
+    static File archivoAux = new File("src/ev3/lectura_escritura/boletin/yo/loIntentoFresas/temporal.txt");
     static String[] rimas = new String[2];
     static String[] parejas = new String[2];
 
 
-    public static void addRegistro() {
+    public static void addRegistro() throws IOException {
         creararchivoE(archivo);
         String rima = "";
         String pareja = "";
@@ -136,13 +136,9 @@ public class Rapp {
         }
     }
 
-    private static void creararchivoE(File archivo) {
+    private static void creararchivoE(File archivo) throws IOException {
         if (!archivo.exists()){
-            try {
                 archivo.createNewFile();
-            } catch (IOException e) {
-                throw new RuntimeException(e);
-            }
         }
     }
 }
