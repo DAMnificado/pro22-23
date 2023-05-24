@@ -128,12 +128,12 @@ public class Rapp {
 
         } catch (EOFException e) {
             System.err.println("Fin de fichero");
-            Files.deleteIfExists(Paths.get(archivo.getAbsolutePath()));
-            Files.move(Paths.get(archivoAux.getAbsolutePath()), Paths.get("datos.txt"));
-
+            archivo.delete();
+            archivoAux.renameTo(archivo);
         } catch (IOException ex) {
             throw new RuntimeException(ex);
         }
+
     }
 
     private static void creararchivoE(File archivo) throws IOException {

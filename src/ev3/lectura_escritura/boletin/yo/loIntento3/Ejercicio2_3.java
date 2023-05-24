@@ -50,7 +50,7 @@ public class Ejercicio2_3 {
         } catch (EOFException e) {
             System.err.println("Fin de fichero");
             archivo.delete();
-            Files.move(Paths.get(archivoAux.getAbsolutePath()), Paths.get("datos.txt"));
+            archivoAux.renameTo(archivo);
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
