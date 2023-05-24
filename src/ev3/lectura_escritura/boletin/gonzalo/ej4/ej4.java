@@ -70,7 +70,7 @@ public class ej4 {
         String telefono =sc.next();
 
         crearArchivo(file);
-        try(DataOutputStream dos = new DataOutputStream(new FileOutputStream(file,true))) {
+        try(DataOutputStream dos = new DataOutputStream(new FileOutputStream(file, true))) {
             dos.writeUTF(nombre + " " + direccion + " " + telefono);
         }
         catch (FileNotFoundException e) {

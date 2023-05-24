@@ -60,7 +60,7 @@ public class Ejercicio4 {
 
         DataOutputStream registroSalida;
         try {
-            registroSalida = new DataOutputStream(new FileOutputStream("Registro.txt", true));
+            registroSalida = new DataOutputStream(new FileOutputStream("src/ev3/lectura_escritura/boletin/nuria/ej4/datos.txt", true));
             registroSalida.writeUTF(nombre);
             registroSalida.writeUTF(direccion);
             registroSalida.writeUTF(telefono);

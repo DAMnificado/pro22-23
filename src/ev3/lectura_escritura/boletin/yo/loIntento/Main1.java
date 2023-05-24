@@ -1,4 +1,4 @@
-package boletin.loIntento;
+package ev3.lectura_escritura.boletin.yo.loIntento;
 
 /**
  * A partir de un array con nombres de persona, escribir en un fichero denominado “datos.txt”

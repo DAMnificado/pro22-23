@@ -7,11 +7,13 @@ import java.nio.file.Paths;
 import java.util.Scanner;
 
 public class Ejercicio2_3 {
-    File archivo = new File("./src/boletin/loIntento3/datos.txt");
-    File archivoAux = new File("./src/boletin/loIntento3/temporal.txt");
+    static File archivo = new File("./src/boletin/loIntento3/datos.txt");
+    static File archivoAux = new File("./src/boletin/loIntento3/temporal.txt");
 
-    private void cargarFichero() {
+    public void cargarFichero() {
+
         try (DataOutputStream dosA = new DataOutputStream(new FileOutputStream(archivo))){
+
             String[] productos = {"Agua", "Leche", "Jabón", "Yogur"};
             double[] precios = {0.75, 0.95, 2.15, 1.50};
 
@@ -26,7 +28,7 @@ public class Ejercicio2_3 {
         }
     }
 
-    private void borrado () throws IOException {
+    private static void borrado () throws IOException {
 
         Scanner sc = new Scanner(System.in);
         System.out.println("Introduzca el nombre del producto que desea eliminar:");
@@ -41,7 +43,7 @@ public class Ejercicio2_3 {
                 linea = disA.readUTF();
 
                 if (linea.split(" ")[0].equalsIgnoreCase(nombre))
-                    System.out.println("Eliminado: " + linea);
+                    System.out.println("Eliminado" + linea);
                 else
                     dosAux.writeUTF(linea);
             }

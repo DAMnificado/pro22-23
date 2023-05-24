@@ -18,7 +18,9 @@ public class Intento {
     public static void leerEscribirFicheros(){
 
         File archivo = new File("./src/boletin/loIntento/datos.txt");
+
         creararchivo(archivo);
+
         String [] personas = {"Joao", "Cusharo", "Matuidi"};
         try {
             DataOutputStream dos = new DataOutputStream(new FileOutputStream(archivo));

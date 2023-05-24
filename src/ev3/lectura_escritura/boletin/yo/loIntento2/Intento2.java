@@ -19,7 +19,8 @@ public class Intento2 {
             for(int i =0;i<productos.length;i++) {
                 dos.writeUTF(productos[i] + precios[i]);
             }
-        } catch (FileNotFoundException e) {
+        }
+        catch (FileNotFoundException e) {
             throw new RuntimeException(e);
         } catch (IOException e) {
             throw new RuntimeException(e);
@@ -35,7 +36,8 @@ public class Intento2 {
                System.out.println(dis.readUTF());
 
            }
-       }     catch (EOFException e) {
+       }
+       catch (EOFException e) {
            System.out.println("Fin del archivo");
        }
 
