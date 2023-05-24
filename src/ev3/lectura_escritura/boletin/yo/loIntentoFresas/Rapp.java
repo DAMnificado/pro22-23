@@ -21,8 +21,8 @@ import java.util.Scanner;
  */
 public class Rapp {
 
-    static File archivo = new File("C:\\Users\\elmen\\Desktop\\DAM\\pro22-23\\src\\ev3\\lectura_escritura\\boletin\\yo\\loIntentoFresas\\datos.txt");
-    static File archivoAux = new File("C:\\Users\\elmen\\Desktop\\DAM\\pro22-23\\src\\ev3\\lectura_escritura\\boletin\\yo\\loIntentoFresas\\temporal.txt");
+    static File archivo = new File("./src/ev3/lectura_escritura/boletin/yo/loIntentoFresas/datos.txt");
+    static File archivoAux = new File("./src/ev3/lectura_escritura/boletin/yo/loIntentoFresas/temporal.txt");
     static String[] rimas = new String[2];
     static String[] parejas = new String[2];
 
@@ -121,18 +121,19 @@ public class Rapp {
             while(true) {
                 linea = disA.readUTF();
                 if (linea.split(" ")[0].equalsIgnoreCase(palabraABuscar)) {
-                    System.out.println("Eliminado" + linea);
+                    System.out.println("Eliminado " + linea);
 
                 } else dosAux.writeUTF(linea);
             }
 
         } catch (EOFException e) {
             System.err.println("Fin de fichero");
-            Files.deleteIfExists(Paths.get(archivo.getAbsolutePath()));
-            Files.move(Paths.get(archivoAux.getAbsolutePath()), Paths.get("datos.txt"));
+            archivo.delete();
+            archivoAux.renameTo(archivo);
 
         } catch (IOException ex) {
             throw new RuntimeException(ex);
+
         }
     }
 

@@ -32,6 +32,7 @@ public class Intento2 {
     public static void leerArchivo(){
 
        try(DataInputStream dis = new DataInputStream(new FileInputStream(archivo))) {
+
            while (true){
                System.out.println(dis.readUTF());
 

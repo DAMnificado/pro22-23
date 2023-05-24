@@ -1,4 +1,4 @@
-package boletin.ej7;
+package ev3.lectura_escritura.boletin.gonzalo.ej7;
 
 import java.util.InputMismatchException;
 

@@ -21,6 +21,7 @@ public class Ejercicio2_3 {
                 dosA.writeUTF(productos[i] + " " + precios[i] + "\n");
             }
             System.out.println("Fichero cargado");
+
         } catch (FileNotFoundException e) {
             throw new RuntimeException(e);
         } catch (IOException e) {
@@ -34,8 +35,8 @@ public class Ejercicio2_3 {
         System.out.println("Introduzca el nombre del producto que desea eliminar:");
         String nombre = sc.nextLine();
 
-        try(DataInputStream disA = new DataInputStream(new FileInputStream(archivo))) {
-            DataOutputStream dosAux = new DataOutputStream(new FileOutputStream(archivoAux));
+        try(DataInputStream disA = new DataInputStream(new FileInputStream(archivo));
+        DataOutputStream dosAux = new DataOutputStream(new FileOutputStream(archivoAux))){;
 
             String linea;
 
@@ -50,7 +51,7 @@ public class Ejercicio2_3 {
         } catch (EOFException e) {
             System.err.println("Fin de fichero");
             archivo.delete();
-            Files.move(Paths.get(archivoAux.getAbsolutePath()), Paths.get("datos.txt"));
+            archivoAux.renameTo(archivo);
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
