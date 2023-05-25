@@ -1,11 +1,6 @@
-package ev3.lectura_escritura.boletin.yo.loIntentoFresas;
+package ev3.lectura_escritura.BOLETIN.yo.loIntentoFresas;
 
-import javax.xml.crypto.Data;
 import java.io.*;
-import java.nio.file.Files;
-import java.nio.file.Path;
-import java.nio.file.Paths;
-import java.util.Date;
 import java.util.Scanner;
 
 /**
@@ -21,13 +16,15 @@ import java.util.Scanner;
  */
 public class Rapp {
 
+
     static File archivo = new File("./src/ev3/lectura_escritura/boletin/yo/loIntentoFresas/datos.txt");
     static File archivoAux = new File("./src/ev3/lectura_escritura/boletin/yo/loIntentoFresas/temporal.txt");
+
     static String[] rimas = new String[2];
     static String[] parejas = new String[2];
 
 
-    public static void addRegistro() {
+    public static void addRegistro() throws IOException {
         creararchivoE(archivo);
         String rima = "";
         String pareja = "";
@@ -135,15 +132,12 @@ public class Rapp {
             throw new RuntimeException(ex);
 
         }
+
     }
 
-    private static void creararchivoE(File archivo) {
+    private static void creararchivoE(File archivo) throws IOException {
         if (!archivo.exists()){
-            try {
                 archivo.createNewFile();
-            } catch (IOException e) {
-                throw new RuntimeException(e);
-            }
         }
     }
 }

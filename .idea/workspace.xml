@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="9366418f-d697-4acd-b7e6-35eb6f7ce826" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/src/ev3/lectura_escritura/boletin/gonzalo/ej7/Alumno.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ev3/lectura_escritura/boletin/gonzalo/ej7/Alumno.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ev3/lectura_escritura/boletin/gonzalo/ej7/ArchivoIntroducidoIncorrectoExcepcion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ev3/lectura_escritura/boletin/gonzalo/ej7/ArchivoIntroducidoIncorrectoExcepcion.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ev3/lectura_escritura/boletin/gonzalo/ej7/Ej7.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ev3/lectura_escritura/boletin/gonzalo/ej7/Ej7.java" afterDir="false" />
@@ -13,6 +14,11 @@
       <change beforePath="$PROJECT_DIR$/src/ev3/lectura_escritura/boletin/yo/loIntentoFresas/Rapp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ev3/lectura_escritura/boletin/yo/loIntentoFresas/Rapp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ev3/lectura_escritura/boletin/yo/loIntentoFresas/datos.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ev3/lectura_escritura/boletin/yo/loIntentoFresas/temporal.txt" beforeDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/src/ev3/lectura_escritura/boletin/yo/loIntento3/Ejercicio2_3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ev3/lectura_escritura/boletin/yo/loIntento3/Ejercicio2_3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ev3/lectura_escritura/boletin/yo/loIntentoFresas/Rapp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ev3/lectura_escritura/boletin/yo/loIntentoFresas/Rapp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ev3/lectura_escritura/boletin/yo/loIntentoFresas/datos.txt" beforeDir="false" />
+>>>>>>> 07d4031076a0752e173036072460dd68fa5c1a67
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
